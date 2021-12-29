@@ -1356,7 +1356,7 @@ dags:
     # git@github.com:apache/airflow.git
     # https example: https://github.com/apache/airflow.git
     repo: git@github.com:JacubovskiBreno/bigdatak8s/airflow.git
-    branch: master
+    branch: main
     rev: HEAD
     depth: 1
     # the number of consecutive failures allowed before aborting
