@@ -733,10 +733,10 @@ webserver:
   defaultUser:
     enabled: true
     role: Admin
-    username: luan.moreno
-    email: luan.moreno@owshq.com
-    firstName: luan
-    lastName: moreno
+    username: breno.jacubovski
+    email: breno.jacubovski@gmail.com
+    firstName: Breno
+    lastName: Jacubovski
     password: Q1w2e3r4!
 
   # Launch additional containers into webserver.
@@ -1355,7 +1355,8 @@ dags:
     # ssh examples ssh://git@github.com/apache/airflow.git
     # git@github.com:apache/airflow.git
     # https example: https://github.com/apache/airflow.git
-    repo: https://luanmoreno:azTgTxX9AbZpr2nxspKQ@bitbucket.org/owshq/airflow.git
+    repo: https://nObrr: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@github.com/JacubovskiBreno/bigdatak8s/airflow.git
+
     branch: master
     rev: HEAD
     depth: 1
