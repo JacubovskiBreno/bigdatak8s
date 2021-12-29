@@ -1349,12 +1349,13 @@ dags:
     ## the name of an existing PVC to use
     existingClaim:
   gitSync:
-    enabled: False
+    enabled: True
+
     # git repo clone url
     # ssh examples ssh://git@github.com/apache/airflow.git
     # git@github.com:apache/airflow.git
     # https example: https://github.com/apache/airflow.git
-    repo: https://nObrr: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@github.com/JacubovskiBreno/bigdatak8s/airflow.git
+    repo: https://github.com/JacubovskiBreno/bigdatak8s/airflow.git
     branch: master
     rev: HEAD
     depth: 1
