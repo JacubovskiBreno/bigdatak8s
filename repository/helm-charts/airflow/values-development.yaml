@@ -1395,7 +1395,7 @@ dags:
     # If you are using an ssh private key, you can additionally
     # specify the content of your known_hosts file, example:
     #
-    knownHosts: {}
+    # knownHosts: {}
     # knownHosts: |
     #    <host1>,<ip1> <key1>
     #    <host2>,<ip2> <key2>
