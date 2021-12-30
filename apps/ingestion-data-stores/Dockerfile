@@ -1,6 +1,6 @@
 # docker image
 FROM python:3.9
-LABEL Luan Moreno M. Maciel <luan.moreno@owshq.com>
+LABEL Breno Jacubovski <brenojacubovski@gmail.com>
 
 # copy requirements
 COPY requirements.txt /

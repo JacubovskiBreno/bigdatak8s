@@ -17,4 +17,4 @@ services:
       - "8000:8000"
     restart: always
     environment:
-      - CONNECT_URL=34.70.98.81:8083
+      - CONNECT_URL=34.123.94.43:8083
