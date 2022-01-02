@@ -18,3 +18,12 @@ services:
     restart: always
     environment:
       - CONNECT_URL=34.123.94.43:8083
+
+  schema-registry:
+    image: landoop/schema-registry-ui
+    container_name: schema-registry-ui
+    ports:
+      - "8001:8081"
+    restart: always
+    environment:
+      - SCHEMAREGISTRY_URL=35.225.94.129:8081

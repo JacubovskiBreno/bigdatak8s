@@ -59,8 +59,8 @@ spec:
         memory: 512Mi
         cpu: "500m"
       limits:
-        memory: 1Gi
-        cpu: "1000m"
+        memory: 2Gi
+        cpu: "1500m"
     metricsConfig:
       type: jmxPrometheusExporter
       valueFrom:

@@ -1,9 +1,9 @@
-apiVersion: batch/v1beta1
+apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: crj-postgres-ingestion
 spec:
-  schedule: "*/10 * * * *"
+  schedule: "*/1 * * * *"
   concurrencyPolicy: Forbid
   jobTemplate:
     spec:
@@ -11,7 +11,7 @@ spec:
         spec:
           containers:
           - name: crj-postgres-ingestion
-            image: owshq/ingestion-data-stores:0.1
+            image: nobrejacubovski/ingestion-data-stores:1.2.1 
             imagePullPolicy: IfNotPresent
             command: ["python3.9","cli.py","postgres"]
           restartPolicy: OnFailure

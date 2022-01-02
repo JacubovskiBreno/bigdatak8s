@@ -11,7 +11,7 @@ spec:
         spec:
           containers:
           - name: crj-mongodb-ingestion
-            image: nobrejacubovski/ingestion-data-stores:0.2
+            image: nobrejacubovski/ingestion-data-stores
             imagePullPolicy: IfNotPresent
             command: ["python3.9","cli.py","mongodb"]
           restartPolicy: OnFailure

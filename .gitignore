@@ -1,2 +1,4 @@
 ssh
 minio
+connectores
+./apps/ingestion-data-stores/.env
